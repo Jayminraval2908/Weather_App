@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: url("pexels-pixabay-314726.jpg");
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#title {
+    font-size: 50px;
+}
+
+input,
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+#b1 {
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 90%;
+
+    }
+
+    #temperature {
+        font-size: 36px;
+    }
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    margin-top: 15px;
+
+}
+
+#img1 {
+    margin-top: 20px;
+}
+
+.desc {
+    height: 80px;
+    background-color: #d9ebf2;
+    border: 3px solid black;
+
+}
+
+
+#b1 {
+    background: linear-gradient(45deg, #FF5733, #FFC300);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
