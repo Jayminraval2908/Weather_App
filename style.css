@@ -69,7 +69,12 @@ button:hover {
     }
 
     .desc {
-        font-size: 14px;
+        font-size: 14px; 
+        padding: 10px; 
+        border-radius: 10px; 
+        background-color: rgba(217, 235, 242, 0.9);
+        border: 2px solid black; 
+        margin-top: 10px;
     }
 }
 
