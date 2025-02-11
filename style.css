@@ -10,11 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .container {
     text-align: center;
     font-family: "Poppins", sans-serif;
+    padding: 20px;
 }
 
 #title {
@@ -39,16 +41,38 @@ button:hover {
 
 }
 
-@media(max-width:768px) {
-    .container {
-        width: 90%;
-
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
     }
 
-    #temperature {
-        font-size: 36px;
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .display {
+        margin-top: 20px;
+    }
+
+    .desc {
+        font-size: 14px;
     }
 }
+
 
 span {
     font-weight: bold;
