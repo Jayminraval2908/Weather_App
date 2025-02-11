@@ -17,6 +17,8 @@ body {
     text-align: center;
     font-family: "Poppins", sans-serif;
     padding: 20px;
+    width: 90%;
+    max-width: 500px;
 }
 
 #title {
@@ -29,11 +31,25 @@ button {
     padding: 10px;
     border: 2px solid black;
     border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
 
 }
 
+
 #b1 {
+    background: linear-gradient(45deg, #FF5733, #FFC300);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
     cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 button:hover {
@@ -41,44 +57,27 @@ button:hover {
 
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 10px;
-    }
 
-    .container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+.desc {
+    height: auto; 
+    background-color: rgba(217, 235, 242, 0.9);
+    border: 2px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    flex-wrap: wrap;    
+}
 
-    input[type="text"] {
-        width: 90%;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
 
-    button {
-        width: 90%;
-        font-size: 16px;
-    }
-
-    .display {
-        margin-top: 20px;
-    }
-
-    .desc {
-        font-size: 14px; 
-        padding: 10px; 
-        border-radius: 10px; 
-        background-color: rgba(217, 235, 242, 0.9);
-        border: 2px solid black; 
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.desc div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
 }
 
 
@@ -99,25 +98,70 @@ img {
     margin-top: 20px;
 }
 
-.desc {
-    height: 80px;
-    background-color: #d9ebf2;
-    border: 3px solid black;
 
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+ 
+    }
+
+    #title {
+        font-size: 35px; 
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* .display {
+        margin-top: 20px;
+    } */
+
+    /* .desc {
+        font-size: 14px; 
+        padding: 10px; 
+        border-radius: 10px; 
+        background-color: rgba(217, 235, 242, 0.9);
+        border: 2px solid black; 
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
+
+    .desc {
+        flex-direction: column; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .desc div {
+        margin-bottom: 10px;
+    }
 }
 
 
-#b1 {
-    background: linear-gradient(45deg, #FF5733, #FFC300);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-    font-weight: bold;
-}
+
+
+
+
+
