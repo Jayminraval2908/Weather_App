@@ -33,6 +33,7 @@ A clean and user-friendly Weather App that provides real-time weather informatio
 
 ---
 
-## 📁 Folder Structure
+
+
 
 
