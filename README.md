@@ -20,11 +20,7 @@ A clean and user-friendly Weather App that provides real-time weather informatio
 - 📱 Fully responsive design for mobile and desktop
 - 🌍 Fetches real-time weather data using the OpenWeatherMap API
 
----
 
-## 📸 Screenshots
-
-![Screenshot](".\Screenshots\weatherapp.png")
 
 ---
 
@@ -38,4 +34,5 @@ A clean and user-friendly Weather App that provides real-time weather informatio
 ---
 
 ## 📁 Folder Structure
+
 
